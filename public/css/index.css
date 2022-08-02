@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,,800,900);
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  /* background: -webkit-linear-gradient(#ebece7, white);
+  background: linear-gradient(#ebece7, white); */
+  background: -webkit-linear-gradient(#eeeeee, yellow);
+  /* background: linear-gradient( #eeeeee, yellow)); */
+  background: linear-gradient(98deg, white 55%, yellow 55%);
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+.title {
+  font-weight: 800;
+  color: transparent;
+  font-size: 120px;
+  /* background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat; */
+  /* background: url("rainbow-nebula.jpg") repeat; */
+  background-image: url(../images/rainbow-nebula.jpg);
+  
+  background-position: 40% 50%;
+  -webkit-background-clip: text;
+  position: relative;
+  text-align: center;
+  line-height: 90px;
+  letter-spacing: -8px;
+}
+
+.subtitle {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+#nav{
+    height: 7%;
+    width: 100%;
+    /* background-color: black; */
+    padding-top: 20px;
+    padding-left: 1em;
+}
+#nav a{
+    outline: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.displayer{
+    width: 100%;
+    height: 6em;
+    /* background-color: red; */
+    display: flex;
+    margin-top: 21em;
+    
+}
+.displayer-child{
+    width: 50%;
+    /* height: 5em; */
+    /* background-color: rebeccapurple; */
+    display: block;
+}
+.post{
+    height: 12em;
+    width: 100%;
+    background-color: royalblue;
+    margin-bottom: 10px;
+}
+.displayer-child:first-of-type{
+    margin-right: 5px;
+}
+
+.reveal{
+    opacity:0;
+    position: relative;
+    top: 100px;
+}
+
+.reveal1{
+  opacity:0;
+  /* position: relative;
+  top: 100px; */
+}
+
+@keyframes transition {
+  0%   { margin-left: -70px;opacity:0; }
+  100% { margin-left: 0;opacity:1; }
+  }
+  
+.rev {opacity:0;animation: transition 1s ease-in-out 2s forwards;}

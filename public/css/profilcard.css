@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans);
+
+body {
+  /* background-color: antiquewhite; */
+  background-image: url('/images/bg4.svg');
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.warcarte {
+  background-color: #f4f4f4;
+  width: 350px;
+  margin: 10px auto;
+  border-radius: 10px;
+  /* box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7); */
+  box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
+    -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+}
+
+.warcarte-header {
+  overflow: hidden;
+  width: 100%;
+  max-height: 200px;
+}
+
+.warcarte-header img{
+    max-width: 100%;
+    max-height: 200PX;
+  /* width: 100%; */
+  border-radius: 10px;
+
+}
+
+
+.warcarte-content {
+  width: 85%;
+  margin: 35px auto;
+}
+
+.warcarte-content h3 {
+  font-size: 25px;
+  margin-bottom: 0;
+  color: #303F9F;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.warcarte-content h4 {
+  font-size: 14px;
+  margin-top: 0;
+  color: #FF5252;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.warcarte-content p {
+  color: #727272;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+.warcarte-footer {
+  border-top: solid 1px #B6B6B6;
+  padding: 5px;
+}
+
+.warcarte-footer ul {
+  padding: 0;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.warcarte-footer ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 5px;
+}
+
+.warcarte-footer ul li i {
+  font-size: 2em;
+  color: #3F51B5;
+} 
+.btn2{
+    background:#e3e3e3;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: #444857;
+  box-shadow : 2px 2px 10px #c2c2d5, -2px -7px 10px #fff;
+  border-radius:25px;
+  margin:5px;
+  transition: 0.5s ease;
+}
+.bouton2{
+    cursor:pointer;
+    height: 40px;
+  width:130px;
+  margin-bottom: 15px;
+
+}
+.bouton2:hover{
+    background: linear-gradient(145deg, #cccccc, #f3f3f3);
+}
+.bouton1{
+    background:#e3e3e3;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: #444857;
+  box-shadow : 2px 2px 10px #c2c2d5, -2px -7px 10px #fff;
+  border-radius:25px;
+  margin:5px;
+  transition: 0.5s ease;
+}
